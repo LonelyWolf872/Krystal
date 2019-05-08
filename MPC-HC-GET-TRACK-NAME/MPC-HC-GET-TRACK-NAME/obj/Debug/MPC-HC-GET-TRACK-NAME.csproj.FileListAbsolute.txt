@@ -1,0 +1,9 @@
+C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\bin\Debug\MPC-HC-GET-TRACK-NAME.exe
+C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\bin\Debug\MPC-HC-GET-TRACK-NAME.pdb
+C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Debug\MPC-HC-GET-TRACK-NAME.csprojAssemblyReference.cache
+C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Debug\MPC_HC_GET_TRACK_NAME.Form1.resources
+C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Debug\MPC_HC_GET_TRACK_NAME.Properties.Resources.resources
+C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Debug\MPC-HC-GET-TRACK-NAME.csproj.GenerateResource.cache
+C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Debug\MPC-HC-GET-TRACK-NAME.csproj.CoreCompileInputs.cache
+C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Debug\MPC-HC-GET-TRACK-NAME.exe
+C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Debug\MPC-HC-GET-TRACK-NAME.pdb
