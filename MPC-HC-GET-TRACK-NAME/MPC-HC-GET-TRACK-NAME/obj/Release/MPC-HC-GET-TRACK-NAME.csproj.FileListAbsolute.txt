@@ -7,3 +7,12 @@ C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj
 C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Release\MPC-HC-GET-TRACK-NAME.csproj.CoreCompileInputs.cache
 C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Release\MPC-HC-GET-TRACK-NAME.exe
 C:\Users\LonelyWolf\source\repos\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Release\MPC-HC-GET-TRACK-NAME.pdb
+E:\GitHub\Krystal\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\bin\Release\MPC-HC-GET-TRACK-NAME.exe
+E:\GitHub\Krystal\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\bin\Release\MPC-HC-GET-TRACK-NAME.pdb
+E:\GitHub\Krystal\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Release\MPC-HC-GET-TRACK-NAME.csprojAssemblyReference.cache
+E:\GitHub\Krystal\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Release\MPC_HC_GET_TRACK_NAME.Form1.resources
+E:\GitHub\Krystal\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Release\MPC_HC_GET_TRACK_NAME.Properties.Resources.resources
+E:\GitHub\Krystal\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Release\MPC-HC-GET-TRACK-NAME.csproj.GenerateResource.cache
+E:\GitHub\Krystal\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Release\MPC-HC-GET-TRACK-NAME.csproj.CoreCompileInputs.cache
+E:\GitHub\Krystal\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Release\MPC-HC-GET-TRACK-NAME.exe
+E:\GitHub\Krystal\MPC-HC-GET-TRACK-NAME\MPC-HC-GET-TRACK-NAME\obj\Release\MPC-HC-GET-TRACK-NAME.pdb

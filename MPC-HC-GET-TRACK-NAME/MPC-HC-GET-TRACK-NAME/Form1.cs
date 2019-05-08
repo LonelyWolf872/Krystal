@@ -13,13 +13,13 @@ namespace MPC_HC_GET_TRACK_NAME
 {
     public partial class Form1 : Form
     {
-        string localhost = @"http://localhost:";
-        string page = @"/variables.html";
-        string port = "13579";
-        string cur_track = "";
-        bool space = false;
-        bool replace = false;
-        WebClient web;
+        public string localhost = @"http://localhost:";
+        public string page = @"/variables.html";
+        public string port = "13579";
+        public string cur_track = "";
+        public bool space = false;
+        public bool replace = false;
+        public WebClient web;
         public Form1()
         {
             InitializeComponent();
@@ -27,8 +27,16 @@ namespace MPC_HC_GET_TRACK_NAME
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            if(!LoadSettings())
+            {
+                SaveSettings();
+                LoadSettings();
+            }
             port = comboBoxPort.Text;
             web = new WebClient();
+            timer1.Interval = int.Parse(comboBoxInterval.Text) * 1000;
+            space = checkBoxSpace.Checked;
+            replace = checkBoxReplace.Checked;
         }
 
         private void comboBox2_TextChanged(object sender, EventArgs e)
@@ -42,6 +50,7 @@ namespace MPC_HC_GET_TRACK_NAME
             port = comboBoxPort.Text;
             space = checkBoxSpace.Checked;
             replace = checkBoxReplace.Checked;
+            SaveSettings();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -104,6 +113,53 @@ namespace MPC_HC_GET_TRACK_NAME
                 }
             } catch { }
                 return tmp_s;
+        }
+
+        private void Error(string text)
+        {
+            MessageBox.Show(text, "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private bool LoadSettings()
+        {
+            try
+            {
+                Settings set = XMLParser.FromXml<Settings>(".\\settings.xml");
+                space = set.AddSpace;
+                port = set.Port;
+                replace = set.Replace;
+                textBoxReplace1.Text = set.ReplaceTextBox1;
+                textBoxReplace2.Text = set.ReplaceTextBox2;
+                comboBoxInterval.Text = set.UpdateInterval;
+            }
+            catch
+            {
+                Error("Couldn't load settings! Error number 0x000A");
+                return false;
+            }
+            return true;
+        }
+
+        private bool SaveSettings()
+        {
+            try
+            {
+                Settings set = new Settings();
+                set.AddSpace = space;
+                set.Port = port;
+                set.Replace = replace;
+                set.ReplaceTextBox1 = textBoxReplace1.Text;
+                set.ReplaceTextBox2 = textBoxReplace2.Text;
+                set.UpdateInterval = comboBoxInterval.Text;
+                XMLParser.ToXml<Settings>(".\\settings.xml", set);
+                MessageBox.Show("1");
+            }
+            catch
+            {
+                Error("Couldn't save settings! Error number 0x000B");
+                return false;
+            }
+            return true;
         }
     }
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UpdateInterval>1</UpdateInterval>
+  <Port>13579</Port>
+  <ReplaceTextBox1>[vk.commusic_for_youtube]</ReplaceTextBox1>
+  <ReplaceTextBox2 />
+  <AddSpace>true</AddSpace>
+  <Replace>true</Replace>
+</Settings>
